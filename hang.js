@@ -18,7 +18,7 @@ function MakeGuess(userGuess){
         }
     }
     if(checker == 0){
-        document.getElementById("gallows").src = "hang"+guessNum.toString()+".jpg";
+        document.getElementById("gallows").src = "hang"+guessNum.toString()+".JPG";
         guessNum++;
         if(guessNum > 7){
             document.getElementById("alphabetList").style.display = "none";
@@ -61,5 +61,5 @@ function restart(){
     for(i=1;i<26;i++){
         document.getElementById(i.toString()).style.display = "block";
     }
-    document.getElementById("gallows").src = "hang.jpg";
+    document.getElementById("gallows").src = "hang.JPG";
 }
