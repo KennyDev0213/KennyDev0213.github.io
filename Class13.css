@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+header{
+    background-color: darkkhaki;
+}
+
+#alphabetList{
+    align-self: center;
+    display: none;
+    justify-content: center;
+    flex-direction: row;
+    width: 50%;
+    background-color: cornflowerblue;
+}
+
+#display{
+    align-self: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    background-image: linear-gradient(90deg, #fff4e0 90%, #b1ff8c);
+}
+
+#BtnContainer{
+    align-self: center;
+    justify-content: space-evenly;
+    background-color: darkkhaki;
+    display: flex;
+    flex-flow: row;
+    text-align: center;
+    width: 10%;
+}

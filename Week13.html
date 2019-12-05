@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="class13.css" rel="stylesheet">
+        <script type="text/javascript" src="hang.js"></script>
+        <meta charset="utf8">
+        <title>HANGEMAN</title>
+    </head>
+    <body>
+        <header>
+            <h1>"HANGMAN" made by Kennon Dong</h1>
+            <p>hello, this was made for a project, you may make 7 mistakes but the eighth will be your last... Good luck!</p>
+        </header>
+        <br>
+        <a href="index.html">Back to Main Page</a>
+        <br>
+            <div id=alphabetList display="none">
+                    <input type="button" onclick="MakeGuess(1)" value="A" id="1">
+                    <input type="button" onclick="MakeGuess(2)" value="B" id="2">
+                    <input type="button" onclick="MakeGuess(3)" value="C" id="3">
+                    <input type="button" onclick="MakeGuess(4)" value="D" id="4">
+                    <input type="button" onclick="MakeGuess(5)" value="E" id="5">
+                    <input type="button" onclick="MakeGuess(6)" value="F" id="6">
+                    <input type="button" onclick="MakeGuess(7)" value="G" id="7">
+                    <input type="button" onclick="MakeGuess(8)" value="H" id="8">
+                    <input type="button" onclick="MakeGuess(9)" value="I" id="9">
+                    <input type="button" onclick="MakeGuess(10)" value="J" id="10">
+                    <input type="button" onclick="MakeGuess(11)" value="K" id="11">
+                    <input type="button" onclick="MakeGuess(12)" value="L" id="12">
+                    <input type="button" onclick="MakeGuess(13)" value="M" id="13">
+                    <input type="button" onclick="MakeGuess(14)" value="N" id="14">
+                    <input type="button" onclick="MakeGuess(15)" value="O" id="15">
+                    <input type="button" onclick="MakeGuess(16)" value="P" id="16">
+                    <input type="button" onclick="MakeGuess(17)" value="Q" id="17">
+                    <input type="button" onclick="MakeGuess(18)" value="R" id="18">
+                    <input type="button" onclick="MakeGuess(19)" value="S" id="19">
+                    <input type="button" onclick="MakeGuess(20)" value="T" id="20">
+                    <input type="button" onclick="MakeGuess(21)" value="U" id="21">
+                    <input type="button" onclick="MakeGuess(22)" value="V" id="22">
+                    <input type="button" onclick="MakeGuess(23)" value="W" id="23">
+                    <input type="button" onclick="MakeGuess(24)" value="X" id="24">
+                    <input type="button" onclick="MakeGuess(25)" value="Y" id="25">
+                    <input type="button" onclick="MakeGuess(26)" value="Z" id="26">
+            </div>
+            
+            <div id="display">
+                <p id="L0" class="LetterHolder"></p>
+                <p id="L1" class="LetterHolder"></p>
+                <p id="L2" class="LetterHolder"></p>
+                <p id="L3" class="LetterHolder"></p>
+                <p id="L4" class="LetterHolder"></p>
+                <p id="L5" class="LetterHolder"></p>
+                <p id="L6" class="LetterHolder"></p>
+                <p id="L7" class="LetterHolder"></p>
+                <p id="L8" class="LetterHolder"></p>
+                <p id="L9" class="LetterHolder"></p>
+            </div>
+            <p id='guessNum'>0</p>    
+            <div id="BtnContainer">
+                <input type="button" onclick="generate()" id="startBtn" value="Start">
+                <input type="button" onclick="restart()" id="resartBtn" value="restart">
+            </div>
+            <div>
+                <img src="hang.jpg" id="gallows"/>
+            </div>
+        <footer>
+
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,73 @@
+header{
+    text-align: center;
+    background: url("casino2.JPG") repeat;
+    color: red;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.container{
+    background-color: yellow;
+    width: 100%;
+    text-align: center;
+}
+
+#navlinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+dt{
+    color: red;
+    font-size: 16pt;
+    height: 5pt;
+    width: 16pt;
+}
+
+#tableCont{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-self: center;
+}
+
+#jackpotimg{
+    display: none;
+}
+
+table{
+    align-self: center;
+    border: 5px solid black;
+}
+
+td{
+    border: 3pt solid black;
+}
+
+.jackBtn {
+    background-color: orange;
+    color: white;
+    box-shadow: 2px 2px 4px black;
+}
+
+div#footimg{
+    height: 90pt;
+    width: 100%;
+    background: url("casino2.jpg") repeat;
+}
+
+footer{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+a{
+    color: red;
+}
