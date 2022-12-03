@@ -1,7 +1,13 @@
+import {BrowserRouter, Route, Routes} from 'react-router-dom';
+
 function ShowcasePage(){
     return(
         <div>
-            Its showtime bb
+            <BrowserRouter>
+                <Routes>
+                    <Route></Route>
+                </Routes>
+            </BrowserRouter>
         </div>
     );
 }

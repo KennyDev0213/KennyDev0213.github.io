@@ -1,0 +1,15 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.contact_container {
+    padding: 10px;
+}
+
+.contact_container a {
+    color: lightgray;
+}
