@@ -6,17 +6,18 @@ import CoverPage from './coverPage';
 import ResumePage from './resumePage';
 import ContactPage from './contactPage';
 import ShowcasePage from './showcasePage';
-import {BrowserRouter, Route, Routes} from 'react-router-dom';
+import {HashRouter, Route, Routes} from 'react-router-dom';
 
 function App(){
     return (
         <div>
             <div className="banner">
                 <div id="sidebar">
-                    <NavigationBar />
+                    
                 </div>
                 <div id="content">
-                    <BrowserRouter>
+                    <HashRouter hashType="noslash">
+                        <NavigationBar />
                         <Routes>
                             <Route path="/" element={<MainPage />} />
                             <Route path="letter" element={<CoverPage />} />
@@ -24,7 +25,7 @@ function App(){
                             <Route path="contact" element={<ContactPage />}/>
                             <Route path="showcase" element={<ShowcasePage />}/>
                         </Routes>
-                    </BrowserRouter>
+                    </HashRouter>
                 </div>
             </div>
         </div>
