@@ -11,6 +11,9 @@ const ResumePage = () => {
         <Document file={Resume}>
             <Page pageNumber={1} />
         </Document>
+        <Document file={Resume}>
+            <Page pageNumber={2} />
+        </Document>
     </div>
     )
 }
