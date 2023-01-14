@@ -1,8 +1,7 @@
-//require('bootstrap/style');
 import './css/app.css';
 import NavigationBar from './navigation';
 import MainPage from './Views/MainPage';
-import CoverPage from './Views/CoverLetterPage';
+//import CoverPage from './Views/CoverLetterPage';
 import ResumePage from './Views/ResumePage';
 import ContactPage from './Views/ContactPage';
 import ShowPage from './Views/ShowcasePage';
@@ -17,10 +16,9 @@ function App(){
                         <NavigationBar />
                         <Routes>
                             <Route path="/" element={<MainPage />} />
-                            <Route path="letter" element={<CoverPage />} />
                             <Route path="resume" element={<ResumePage />} />
                             <Route path="contact" element={<ContactPage />}/>
-                            <Route path="showcase" element={<ShowPage />}/>
+                            <Route path="projects" element={<ShowPage />}/>
                         </Routes>
                     </HashRouter>
                 </div>
