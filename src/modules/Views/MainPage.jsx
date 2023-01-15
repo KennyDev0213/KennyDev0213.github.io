@@ -11,7 +11,12 @@ const MainPage = () => {
             <div class="container">
                 <h2>About Me</h2>
                 <article>
-                    My full name is Kennon Micheal Dong, I am currently 24 years old as of 2022 and my birthday is in February. I was born in British Columbia, Canada in Burnaby. With my mother's side coming from the Netherlands and my father's side from China, I am the third generation to live in Canada. I have a passion for working with computers and want to use them as a medium to express my creativity. My dream job or position would be a Game Developer or a Web Developer.
+                    My full name is Kennon Micheal Dong, I am currently 24 years old as of 2022 and my birthday is in February. 
+                    I was born in British Columbia, Canada in Burnaby. 
+                    With my mother's side coming from the Netherlands and my father's side from China, I am the third generation to live in Canada. 
+                    I have a passion for working with computers and want to use them as a medium to express my creativity. 
+                    My dream job or position would be a Game Developer or a Web Developer. Although I may not have much experience, I genuinely want to learn and work with other people who already have experience in the industry.
+                    
                 </article>
             </div>
             <h2>Languages</h2>
